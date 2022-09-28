@@ -1,0 +1,50 @@
+{
+    "EUR/USD": {
+        "Long": 73,
+        "Short": 27
+    },
+    "NZDUSD": {
+        "Long": 70,
+        "Short": 30
+    },
+    "AUDJPY": {
+        "Long": 33,
+        "Short": 67
+    },
+    "EURCHF": {        
+        "Long": 63,
+        "Short": 37
+    },
+    "EURGBP": {
+        "Long": 35,
+        "Short": 65
+    },
+    "EURJPY": {
+        "Long": 31,
+        "Short": 69
+    },
+    "GBPJPY": {
+        "Long": 42,
+        "Short": 59
+    },
+    "USDCHF": {
+        "Long": 51,
+        "Short": 49
+    },
+    "USDJPY": {    
+        "Long": 23,
+        "Short": 77
+    },
+    "AUDUSD": {
+        "Long": 75,
+        "Short": 25
+    },
+    "GBPUSD": {
+        "Long": 71,
+        "Short": 29
+    },
+    "USDCAD": {
+        "Long": 29,
+        "Short": 71
+    }
+}
