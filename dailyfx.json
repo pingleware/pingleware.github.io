@@ -1,50 +1,64 @@
 {
-    "EUR/USD": {
-        "Long": 73,
-        "Short": 27
-    },
-    "NZDUSD": {
-        "Long": 70,
-        "Short": 30
-    },
-    "AUDJPY": {
-        "Long": 33,
-        "Short": 67
-    },
-    "EURCHF": {        
-        "Long": 63,
-        "Short": 37
-    },
-    "EURGBP": {
-        "Long": 35,
-        "Short": 65
-    },
-    "EURJPY": {
-        "Long": 31,
-        "Short": 69
-    },
-    "GBPJPY": {
-        "Long": 42,
-        "Short": 59
-    },
-    "USDCHF": {
-        "Long": 51,
-        "Short": 49
-    },
-    "USDJPY": {    
-        "Long": 23,
-        "Short": 77
-    },
-    "AUDUSD": {
-        "Long": 75,
-        "Short": 25
-    },
-    "GBPUSD": {
-        "Long": 71,
-        "Short": 29
-    },
-    "USDCAD": {
-        "Long": 29,
-        "Short": 71
-    }
+    "sentiment": [
+        {
+            "Symbol": "EUR/USD",
+            "Long": 73,
+            "Short": 27
+        },
+        {
+            "Symbol": "NZDUSD",
+            "Long": 70,
+            "Short": 30
+        },
+        {
+            "Symbol": "AUDJPY",
+            "Long": 33,
+            "Short": 67
+        },
+        {        
+            "Symbol": "EURCHF",
+            "Long": 63,
+            "Short": 37
+        },
+        {
+            "Symbol": "EURGBP",
+            "Long": 35,
+            "Short": 65
+        },
+        {
+            "Symbol": "EURJPY",
+            "Long": 31,
+            "Short": 69
+        },
+        {
+            "Symbol": "GBPJPY",
+            "Long": 42,
+            "Short": 59
+        },
+        {
+            "Symbol": "USDCHF",
+            "Long": 51,
+            "Short": 49
+        },
+        {    
+            "Symbol": "USDJPY",
+            "Long": 23,
+            "Short": 77
+        },
+        {
+            "Symbol": "AUDUSD",
+            "Long": 75,
+            "Short": 25
+        },
+        {
+            "Symbol": "GBPUSD",
+            "Long": 71,
+            "Short": 29
+        },
+        {
+            "Symbol": "USDCAD",
+            "Long": 29,
+            "Short": 71
+        }
+    ]
 }

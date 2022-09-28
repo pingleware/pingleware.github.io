@@ -1,70 +1,89 @@
 {
-    "AUD/CAD": {
-        "Long": 68.3,
-        "Short": 31.7
-    },
-    "AUD/JPY": {
-        "Long": 52.5,
-        "Short": 47.5
-    },
-    "AUD/NZD": {
-        "Long": 25.4,
-        "Short": 74.5
-    },
-    "AUD/USD": {
-        "Long": 56.5,
-        "Short": 43.5
-    },
-    "CAD/JPY": {
-        "Long": 48.1,
-        "Short": 51.9
-    },
-    "EUR/CAD": {
-        "Long": 50.9,
-        "Short": 49.1
-    },
-    "EUR/CHF": {
-        "Long": 73.7,
-        "Short": 26.3
-    },
-    "EUR/GBP": {
-        "Long": 36.5,
-        "Short": 63.5
-    },
-    "EUR/JPY": {
-        "Long": 41.5,
-        "Short": 58.5
-    },
-    "EUR/USD": {
-        "Long": 61.6,
-        "Short": 38.4
-    },
-    "GBP/JPY": {
-        "Long": 42.1,
-        "Short": 57.9
-    },
-    "GBP/USD": {
-        "Long": 53.4,
-        "Short": 46.6
-    },
-    "NZD/USD": {
-        "Long": 61.9,
-        "Short": 38.1
-    },
-    "USD/CAD": {
-        "Long": 29.7,
-        "Short": 70.3
-    },
-    "USD/CHF": {
-        "Long": 43.0,
-        "Short": 57.0
-    },
-    "USD/JPY": {
-        "Long": 42.0,
-        "Short": 58.0
-    },
-    "XAU/USD": {
-        "Long": 46.8,
-        "Short": 53.2
-    }
+    "sentiment": [
+        {
+            "Symbol": "AUD/CAD",
+            "Long": 68.3,
+            "Short": 31.7
+        },
+        {
+            "Symbol": "AUD/JPY",
+            "Long": 52.5,
+            "Short": 47.5
+        },
+        {
+            "Symbol": "AUD/NZD",
+            "Long": 25.4,
+            "Short": 74.5
+        },
+        {
+            "Symbol": "AUD/USD",
+            "Long": 56.5,
+            "Short": 43.5
+        },
+        {
+            "Symbol": "CAD/JPY",
+            "Long": 48.1,
+            "Short": 51.9
+        },
+        {
+            "Symbol": "EUR/CAD",
+            "Long": 50.9,
+            "Short": 49.1
+        },
+        {
+            "Symbol": "EUR/CHF",
+            "Long": 73.7,
+            "Short": 26.3
+        },
+        {
+            "Symbol": "EUR/GBP",
+            "Long": 36.5,
+            "Short": 63.5
+        },
+        {
+            "Symbol": "EUR/JPY",
+            "Long": 41.5,
+            "Short": 58.5
+        },
+        {
+            "Symbol": "EUR/USD",
+            "Long": 61.6,
+            "Short": 38.4
+        },
+        {
+            "Symbol": "GBP/JPY",
+            "Long": 42.1,
+            "Short": 57.9
+        },
+        {
+            "Symbol": "GBP/USD",
+            "Long": 53.4,
+            "Short": 46.6
+        },
+        {
+            "Symbol": "NZD/USD",
+            "Long": 61.9,
+            "Short": 38.1
+        },
+        {
+            "Symbol": "USD/CAD",
+            "Long": 29.7,
+            "Short": 70.3
+        },
+        {
+            "Symbol": "USD/CHF",
+            "Long": 43.0,
+            "Short": 57.0
+        },
+        {
+            "Symbol": "USD/JPY",
+            "Long": 42.0,
+            "Short": 58.0
+        },
+        {
+            "Symbol": "XAU/USD",
+            "Long": 46.8,
+            "Short": 53.2
+        }
+    ]
 }
