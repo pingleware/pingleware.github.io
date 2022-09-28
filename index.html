@@ -1,1 +1,43 @@
-<h1>PINGLEWARE GITHUB PAGE</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PINGLEWARE GITHUB PAGE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <div class="w3-container">
+            <h2 class="w3-center">PINGLEWARE GITHUB PAGE</h2>
+            <p>PINGLEWARE is a registered brand operations of PressPage Entertainment Inc. in the State of Florida.</p>
+            <div class="w3-bar w3-black">
+                <button class="w3-bar-item w3-button" onclick="openTab('Original')">Original Projects</button>
+                <button class="w3-bar-item w3-button" onclick="openTab('Forked')">Forked Projects</button>
+                <button class="w3-bar-item w3-button" onclick="openTab('Imported')">Imported Projects</button>
+            </div>
+            <div id="Original" class="codetypes">
+                <h2>Original Projects</h2>
+                <p>The following projects are original projects.</p>
+            </div>
+            <div id="Forked" class="codetypes" style="display:none">
+                <h2>Forked Projects</h2>
+                <p>The following projects have been forked from other projects.</p>
+            </div>            
+            <div id="Imported" class="codetypes" style="display:none">
+                <h2>Imported Projects</h2>
+                <p>The following projects have been imported from other respositories.</p>
+            </div>            
+        </div>
+        <!-- JavaScript -->
+        <script type="text/javascript">
+            function openTab(tabName) {
+                var i;
+                var x = document.getElementsByClassName("codetypes");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                document.getElementById(tabName).style.display = "block";
+            }            
+        </script>
+    </body>
+</html>
