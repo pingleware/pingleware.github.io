@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XML Display</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  #xml-content {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    white-space: pre-wrap;
+  }
+</style>
+</head>
+<body>
+<div id="xml-content">
+  <!-- XML content will be displayed here -->
+</div>
+<script>
+  const xmlUrl = "https://raw.githubusercontent.com/pingleware/redeecash.exchange.data/main/algorithmic-trading/presspage_entertainment_inc_redeecash_interest.xml";
+  const xmlContentDiv = document.getElementById("xml-content");
+
+  fetch(xmlUrl)
+    .then(response => response.text())
+    .then(xmlContent => {
+      // Escape XML content to prevent HTML injection
+      const escapedXmlContent = xmlContent.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      xmlContentDiv.innerHTML = `<pre>${escapedXmlContent}</pre>`;
+    })
+    .catch(error => {
+      xmlContentDiv.textContent = "Error fetching XML content.";
+      console.error(error);
+    });
+</script>
+</body>
+</html>
